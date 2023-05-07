@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#182948"
+    tools:context=".Register">
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#A9801D"
+        android:text="Submıt"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="380dp"
+        android:layout_height="116dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edittext_border"
+            android:drawableLeft="@drawable/lock"
+            android:ems="10"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:textColor="#182948"
+            android:textColorHint="#182948" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/et_confirmPassword"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edittext_border"
+            android:drawableLeft="@drawable/lock"
+            android:ems="10"
+            android:hint=" Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="#182948"
+            android:textColorHint="#182948" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="380dp"
+        android:layout_height="181dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint=" Name"
+            android:inputType="textPersonName"
+            android:textColor="#182948"
+            android:textColorHint="#182948" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/et_surname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint=" Surname"
+            android:inputType="textPersonName"
+            android:textColor="#182948"
+            android:textColorHint="#182948" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="380dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edittext_border"
+            android:drawableLeft="@drawable/mail2"
+            android:ems="10"
+            android:hint=" E-mail"
+            android:inputType="textEmailAddress"
+            android:textColor="#182948"
+            android:textColorHint="#182948" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/ic_action_username" />
+
+    <ImageView
+        android:id="@+id/ytuImage"
+        android:layout_width="102dp"
+        android:layout_height="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ytuname" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="382dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65">
+
+        <EditText
+            android:id="@+id/et_entryYear"
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:drawableLeft="@drawable/calendar"
+            android:ems="10"
+            android:hint=" Entry Date"
+            android:inputType="number"
+            android:textColor="#182948"
+            android:textColorHint="#182948" />
+
+        <EditText
+            android:id="@+id/et_gradYear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_border"
+            android:drawableLeft="@drawable/calendar"
+            android:ems="10"
+            android:hint=" Graduation Date"
+            android:inputType="number"
+            android:textColor="#182948"
+            android:textColorHint="#182948" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/uploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="94dp"
+        android:clickable="true"
+        app:backgroundTint="#A9801D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/baseline_camera_alt_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

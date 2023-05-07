@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YTU-AS</string>
+    <string-array name="DegreeList">
+        <item>Bachelors</item>
+        <item>Master</item>
+        <item>PhD</item>
+    </string-array>
+</resources>

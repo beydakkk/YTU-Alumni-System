@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "352365935778",
+    "project_id": "ytu-alumni-system",
+    "storage_bucket": "ytu-alumni-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352365935778:android:c55d0bb1b4d3791a1d2bfb",
+        "android_client_info": {
+          "package_name": "com.example.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352365935778-ra05osne2nknj2ju5kphu1q6l5lsduri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2uFfCZMqH3TFe4OYrupdwGhIYEjv1kaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352365935778-ra05osne2nknj2ju5kphu1q6l5lsduri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
